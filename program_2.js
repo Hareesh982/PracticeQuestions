@@ -1,8 +1,6 @@
 // Find a = [3,7,8,6,2,5] maximum and minimum number in array
 
 
-// Using for loop to compare and find the maximum element in an array
-
 function Maximum(a){
     let n = a.length
     let max = a[0]
@@ -39,12 +37,8 @@ function Minimum(a){
 }
 
 a = [3,7,8,6,2,5]
-console.log(Maximum(a));
-console.log(Minimum(a));
+console.log(Maximum(a));  // max => 8
+console.log(Minimum(a));  // Min => 2
 
 
-// Using math
-// using spread operator to unpack the elements because , Math cannot be performed on array
-console.log(Math.max(...a)); //8
-console.log(Math.min(...a)); //2
 

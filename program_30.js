@@ -7,4 +7,4 @@ let obj = [{subject : "physics", marks : 90},
 ]
 
 
-console.log(obj.reduce((acc,ele) => acc+ele.marks,0));
+console.log(obj.reduce((acc,ele) => acc+ele.marks,0)); // 350

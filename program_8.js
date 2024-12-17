@@ -19,3 +19,5 @@ function Maximum(a){
 
 a = [3,7,8,6,2,5]
 console.log(Maximum(a));
+
+// max => 8

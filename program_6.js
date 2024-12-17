@@ -18,6 +18,8 @@ function Palindrome(str){
 console.log(Palindrome('Gadag'.toLocaleLowerCase())); // gadag is palindrome
 console.log(Palindrome('Malayalam'.toLocaleLowerCase())); // malayalam is palindrome
 console.log(Palindrome('Racecar'.toLocaleLowerCase())); // racecar is palindrome
+console.log(Palindrome('hi')); // hi is not palindrome
+
 
 
 

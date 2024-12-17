@@ -8,5 +8,5 @@ function StringReverse(str){
     return rev
 }
 let str = 'Hareesh'
-console.log(`Original string => ${str}`)
-console.log("Reversed String =>",StringReverse("Hareesh"));
+console.log(`Original string => ${str}`) // Original string => Hareesh
+console.log("Reversed String =>",StringReverse("Hareesh")); // Reversed String => hseeraH

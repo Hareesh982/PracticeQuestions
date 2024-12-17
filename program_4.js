@@ -3,6 +3,8 @@
 
 let arr = [1,2,3,4,5,6,7,8,9]
 
-console.log(arr.map(num => num*2));
+let result = arr.map(num => num*2)
+console.log(result);
+
 
 // [2,  4,  6,  8, 10, 12, 14, 16, 18]

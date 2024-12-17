@@ -9,6 +9,8 @@ const people = [{ name: "Alice", age: 25 },
                 { name: "Eve", age: 20 } 
             ];
 
-console.log(people.filter(num => num.age>=18).map(num => num.name));
+let result = people.filter(num => num.age>=18).map(num => num.name)
+console.log(result);
+
 
 // [ 'Alice', 'Charlie', 'Eve' ]

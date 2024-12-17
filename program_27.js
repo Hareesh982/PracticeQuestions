@@ -31,5 +31,5 @@ function SecondMaximum(arr){
 }
 
 let arr = [[1,2,3,4],[5,6,7,8,10],[11,12,0,1,2]]
-console.log(SecondMaximum(arr));
+console.log(SecondMaximum(arr)); // 11
 

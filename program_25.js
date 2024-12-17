@@ -14,7 +14,7 @@ function DuplicatesRemove(arr){
     return unq.join('')
 }
 
-let str = "hareesh" // string is immutable, splitting string into array will help to remove the duplicates 
+let str = "hareesh"
 console.log(DuplicatesRemove(str.split('')));
 
 // output => hares

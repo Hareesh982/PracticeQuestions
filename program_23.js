@@ -25,6 +25,6 @@ function SecondMinimum(...arr){
     return second_min
 }
 
-console.log(SecondMaximum(1,2,3,4,5,6,7,8,9));
-console.log(SecondMinimum(1,2,3,4,5,6,7,8,9,0));
+console.log(SecondMaximum(1,2,3,4,5,6,7,8,9)); // 8
+console.log(SecondMinimum(1,2,3,4,5,6,7,8,9,0)); //1
 
